@@ -4,6 +4,10 @@ ESP32 reading a BMP390L (pressure/temperature) and an LSM6DS3 (accelerometer/gyr
 
 ## Hardware
 
+The primary reference for hardware connections is [`include/config.h`](include/config.h): it documents every connection and holds the pin numbers the code uses. The tables below are a quick summary; if you change the wiring, update `config.h`.
+
+BMP390L and LSM6DS3 (I2C):
+
 | Module pin | ESP32   |
 |------------|---------|
 | VCC        | 3V3     |

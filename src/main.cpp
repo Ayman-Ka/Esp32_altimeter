@@ -1,5 +1,5 @@
 // BMP390L (pressure/temperature) + LSM6DS3 (accel/gyro), printed to serial and
-// logged to SD card. Wiring is in README.md, settings in include/config.h.
+// logged to SD card. Wiring and settings are in include/config.h.
 
 #include <Arduino.h>
 #include <Wire.h>
